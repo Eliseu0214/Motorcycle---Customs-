@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background: url(Custom.jpg) no-repeat
+    center center;
+    background-size: cover;
+    height: 110vh;
+    opacity: 70%;
+}
+
+img {
+    position:absolute;
+    width: 110px;
+    height: 110px;
+    left: 30px;
+    top: 0px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+
+nav ul li{
+    font-family: 'Righteous';
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 20px;
+}
+
+nav ul li a{
+    color: #f2a444 ;
+    text-decoration: none;
+
+}
+
+nav ul li a:hover{
+    color: #000;
+    transition: .2s;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: #f2a444;
+    height: 1px;
+
+}
+
+h1 {
+    position: absolute;
+    width: 668px;
+    height: 249px;
+    left: 430px;
+    top: 0px;
+    font-family: 'Revalia';
+    font-size: 90px;
+    line-height: 877px;
+    color: #ffffff;
+}
+
+@font-face {
+    font-family: Revalia;
+    src: url(Revalia-Regular.ttf);
+}
